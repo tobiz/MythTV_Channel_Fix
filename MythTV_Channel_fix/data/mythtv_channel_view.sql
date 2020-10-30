@@ -1,0 +1,1 @@
+SELECT chanid, channum, freqid, sourceid, callsign, name, xmltvid, serviceid  FROM channel  ORDER BY (serviceid);

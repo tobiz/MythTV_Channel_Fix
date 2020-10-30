@@ -1,0 +1,1 @@
+ SELECT chanid, channum, freqid, sourceid, callsign, name, xmltvid  FROM channel WHERE freqid IN (21,24,27,40, 43,46,55)  ORDER BY (channum + 0),(freqid + 0);
